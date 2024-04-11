@@ -1,0 +1,686 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: #f5f5f5;
+}
+
+#home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-brand{
+    font-size: 2rem;
+}
+
+span i{
+    color: white;
+    font-size: 30px;
+    
+}
+
+
+.navbar-nav .nav-link:hover{
+    border-bottom: 2px solid white;
+    color: white;
+
+
+}
+.nav-content{
+    color: white;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.nav-content h1{
+    position: relative;
+    font-size: 40px;
+    font-weight: 900;
+
+}
+
+.nav-content h1::after{
+    content: "|";
+    position: absolute;
+    left:25%;
+    bottom:-60%;
+    transform: translateY(60%);
+    animation: gerges 7s alternate infinite;
+    font-size: 25px;
+}
+
+@keyframes gerges{
+    0% {
+        content: "Free";
+      }
+      2% {
+        content: "Fre|";
+      }
+      4% {
+        content: "Fr";
+      }
+      6% {
+        content: "F";
+      }
+      8% {
+        content: "|";
+      }
+      10% {
+        content: "";
+      }
+      12% {
+        content: "S|";
+      }
+      14% {
+        content: "Se";
+      }
+      16% {
+        content: "Sen|";
+      }
+      18% {
+        content: "Seni";
+      }
+      20% {
+        content: "Senio|";
+      }
+      22% {
+        content: "Senior";
+      }
+      24% {
+        content: "Senior |";
+      }
+      26% {
+        content: "Senior F";
+      }
+      28% {
+        content: "Senior Fr|";
+      }
+      30% {
+        content: "Senior Fro";
+      }
+      32% {
+        content: "Senior Fron|";
+      }
+      34% {
+        content: "Senior Front";
+      }
+    
+      36% {
+        content: "Senior Front |";
+      }
+      38% {
+        content: "Senior Front e";
+      }
+      40% {
+        content: "Senior Front en|";
+      }
+      42% {
+        content: "Senior Front end";
+      }
+      44% {
+        content: "Senior Front|";
+      }
+      46% {
+        content: "Senior Fron";
+      }
+      48% {
+        content: "Senior Fro|";
+      }
+      50% {
+        content: "Senior Fr";
+      }
+      52% {
+        content: "Senior F|";
+      }
+      54% {
+        content: "Senior ";
+      }
+      56% {
+        content: "Senior|";
+      }
+      58% {
+        content: "";
+      }
+      60% {
+        content: "G|";
+      }
+      62% {
+        content: "GE";
+      }
+      64% {
+        content: "GER|";
+      }
+      66% {
+        content: "GERGES";
+      }
+      68% {
+        content: "GERGES|";
+      }
+      70% {
+        content: "GERGES";
+      }
+      72% {
+        content: "GERGES R|";
+      }
+      74% {
+        content: "GERGES RO";
+      }
+      76% {
+        content: "GERGES ROM|";
+      }
+      78% {
+        content: "GERGES ROMA";
+      }
+      80% {
+        content: "GERGES ROMAN|";
+      }
+      82% {
+        content: "GERGES ROMANY";
+      }
+      84% {
+        content: "GERGES ROMANY|";
+      }
+      86% {
+        content: "GERGES ROMAN";
+      }
+      88% {
+        content: "GERGES ROMA|";
+      }
+      90% {
+        content: "GERGES RO";
+      }
+      92% {
+        content: "GERGES R|";
+      }
+      94% {
+        content: "GERGES ";
+      }
+      96% {
+        content: "GERGE|";
+      }
+      98% {
+        content: "GERG";
+      }
+      100% {
+        content: "GER|";
+      }
+    
+
+}
+
+.img-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.img-content img{
+  width: 200px;
+  margin-top: 20px;
+}
+
+.skill-content .html{
+  width: 100%;
+  height: 12px;
+  background-color: #cde1f8;
+
+}
+.skill-content .html .html-85{
+  width: 85%;
+  height: 12px;
+  background-color:#0078ff ;
+}
+
+.skill-content .CSS3{
+  width: 100%;
+  height: 12px;
+  background-color: #cde1f8;
+
+}
+.skill-content .CSS3 .CSS3-75{
+  width: 75%;
+  height: 12px;
+  background-color:#0078ff ;
+}
+.skill-content .PHP{
+  width: 100%;
+  height: 12px;
+  background-color: #cde1f8;
+
+}
+.skill-content .PHP .PHP-50{
+  width: 50%;
+  height: 12px;
+  background-color:#0078ff ;
+}
+.skill-content .JAVASCRIPT{
+  width: 100%;
+  height: 12px;
+  background-color: #cde1f8;
+
+}
+.skill-content .JAVASCRIPT .JAVASCRIPT-90{
+  width: 90%;
+  height: 12px;
+  background-color:#0078ff ;
+}
+#about .row{
+  margin: 20px;
+}
+
+.about-me h1{
+  position: relative;
+}
+
+.about-me h1::after{
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 3px;
+  background-color: #0078ff;
+  left: 5px;
+  bottom: -30%;
+  transform:translateY(30%);
+}
+.portofoleo{
+  position: relative;
+}
+.portofoleo::after{
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 3px;
+  background-color: #0078ff;
+  left: 48%;
+  bottom: -20%;
+  transform:translateY(20%);
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+border: none;
+}
+.card .iconss{
+  margin-top: 20px;
+  font-size: 40px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border: 9px solid #0078ff;
+  border-radius: 50%;
+}
+
+.card .iconss:hover{
+  background-color: #0078ff;
+  color: white;
+  border: 9px solid #cde1f8;
+}
+
+.after-serv{
+  background-image: url(../image/counters-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.after-serv .container-fluid{
+  margin: 0 auto;
+  background: #0078ff;
+  opacity: 0.8;
+  width: 98%;
+  height: 100vh;
+
+}
+.after-serv .row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  height: 100vh;
+}
+.row .serv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.serv i{
+ 
+  margin-top: 20px;
+  font-size: 25px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border: 9px solid white;
+  color: white;
+  border-radius: 50%;
+}
+@media (max-width:767px) 
+{
+  .after-serv{
+    background-image: url(../image/counters-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 130vh;
+
+  }
+  .after-serv .container-fluid{
+    margin: 0 auto;
+    background: #0078ff;
+    opacity: 0.8;
+    width: 98%;
+    height: 130vh;
+  
+  
+  }
+  .after-serv .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    height: 130vh;
+  }
+  
+}
+
+
+#PORTFOLIO .card-body{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.card-text i{
+  font-size: 25px;
+  height: 50px;
+  width: 50px;
+  border: 5px solid #0078ff;
+  color: #0078ff;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  
+  
+
+}
+#PORTFOLIO .card{
+
+}
+.hid{
+  overflow: hidden;
+}
+#PORTFOLIO .card-img-top{
+  transition: 1s all;
+  
+}
+#PORTFOLIO .card .card-img-top:hover{
+  
+  transform: scale(1.2);
+}
+#PORTFOLIO .card-title a{
+  text-decoration: none;
+  color: #0078ff;
+}
+.port{
+  background-image: url(../image/overlay-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+width: 100%;
+height: 100vh;
+
+}
+.port .container-fluid{
+  background: #0078ff;
+  opacity: .8;
+  height: 100vh;
+  width: 98%;
+  margin: 0 auto;
+
+}
+.port .row{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel-inner{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+
+}
+.carousel-item{
+  position: relative;
+  width: 100%;
+float: left;
+margin-right: -100%;
+display: none;
+
+}
+
+.carousel-item img{
+top: 50%;
+float: left;
+width: 30%;
+display: block !important;
+height: 30%;
+border-radius: 50%;
+
+}
+.carousel-item-content{
+  float: right;
+  top: 30px;
+  left:35%;
+  position: absolute;
+}
+.card-link{
+  margin: 5px auto;
+}
+.card-footer{
+display: flex;
+justify-content: space-between;
+width: 100%;
+}
+.card-footer-one img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.card-footer-one span a{
+  text-decoration: none;
+}
+
+.card-footer-one span a:hover{
+
+  color: #0078ff;
+}
+.card-footer-tow i{
+  font-size: 20px;
+}
+.card-footer-tow:hover{
+  color: #0078ff;
+  transition: 1s all;
+}
+
+#blog .card-title:hover{
+  color: #0078ff;
+  transition: 1s all;
+}
+
+#contact{
+  background-image: url(../image/overlay-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  
+
+}
+#contact .container-fluid{
+  background: #0078ff;
+  padding: 50px;
+  opacity: .8;
+  width: 98%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact .container{
+  background: #f5f5f5;
+  opacity: 1 !important;
+  
+
+
+}
+.container form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type=email]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.cont-form h2{
+  position: relative;
+}
+.cont-form h2::after{
+  content: "";
+  position: absolute;
+  bottom: -30%;
+  left: 5px;
+  width: 100px;
+  height: 4px;
+  background: #0078ff;
+  transform: translateY(30%);
+}
+
+.tow-icon{
+  display: flex;
+  
+   
+}
+.tow-icon a{
+text-decoration: none;
+
+ 
+
+}
+.tow-icon i{
+  font-size: 25px;
+  margin: 10px;
+width: 50px;
+height: 50px;
+border: 2px solid #0078ff;
+border-radius: 50%;
+  color:#0078ff;
+display: grid;
+place-items: center;
+transition: 1s all;
+
+}
+
+.tow-icon i:hover{
+  color: white;
+  background: #0078ff;
+  transform: scale(1.2);
+}
+#contact span i{
+  margin-top: 5px;
+  color: #0078ff;
+}
+
+footer {
+
+background: #0078ff;
+}
+
+@media (max-width: 575.98px) { 
+  .tow-icon i{
+    margin: 5px auto;
+  }
+
+  .portofoleo::after{
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 3px;
+    background-color: #0078ff;
+    left: 40%;
+    bottom: -20%;
+    transform:translateY(20%);
+  }
+  .img-content{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+   .img-content img{
+    margin-bottom: 10px;
+   }
+ }
+
+
+@media (max-width: 767.98px) { ... }
+
+
+@media (max-width: 991.98px) { ... }
+
+
+@media (max-width: 1199.98px) { ... }
+
+
+@media (max-width: 1399.98px) { ... }
+
+
+
+
+
+
